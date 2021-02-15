@@ -13,16 +13,20 @@ body{
     margin: 40px;
 }
 .opt{
-    margin: 0px 40px;
-    padding: 40px;
+    margin: 0px 60px;
+    padding: 40px 0px;
     display: flex;
     justify-content: space-around ;
+    flex-wrap: wrap;
 }
-.op{
-    background-color: #1e3d59;
-    color: #f5f0e1;
+.wa{
+    width: 70%;
+    box-sizing: content-box;
+    text-align: center;
     padding: 10px 20px;
-    margin: 20px;
+    color: white;
+    background-color:#1e3d59;
+    margin: 20px 20px;
 }
 .next{
     color: #f5f0e1;
@@ -30,12 +34,23 @@ body{
     padding: 10px 50px;
 }
 .ne{
-    margin: 40px;
+    margin: 10px 60px;
 }
 .timer{
     color: #f5f0e1;
     background-color: #1e3d59;
     width: 152px;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.submit{
+    display: none;
+}
+.result{
+    display: none;
+    background-color: #1e3d59;
+    color: #f5f0e1;
+    padding: 50px;
+    margin: 50px;
 }
